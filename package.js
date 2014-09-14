@@ -1,11 +1,11 @@
 Package.describe({
   summary: "node-cldr packaged for meteor.",
-  version: "2.2.1",
+  version: "2.3.0",
   git: "https://github.com/Nemo64/meteor-cldr"
 });
 
 Npm.depends({
-    'cldr': '2.2.1'
+    'cldr': '2.3.0'
 });
 
 Package.onUse(function(api) {
